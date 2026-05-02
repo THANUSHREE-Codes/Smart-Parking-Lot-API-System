@@ -17,7 +17,7 @@ app.use('/api/parking', require('./routes/parkingRoutes'));
 
 // Hardcode values directly here
 const PORT = 3000;
-const MONGO_URI = 'mongodb+srv://uthanushree:THANUSHREE@parking.ieien0h.mongodb.net/?appName=parking';
+
 mongoose.connect(MONGO_URI)
   .then(() => {
     console.log('MongoDB Connected');
