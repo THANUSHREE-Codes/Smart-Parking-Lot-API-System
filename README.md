@@ -45,7 +45,7 @@ Smart-Parking-Lot-API-System/
 
 ### Prerequisites
 
-- Node.js 
+- Express.js 
 - MongoDB 
 
 ## 🔌 API Endpoints
